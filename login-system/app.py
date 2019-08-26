@@ -2,7 +2,7 @@ import sqlite3 as sql
 import time
 import webbrowser
 giris = """######################################
-\t\tOZD ŞİRKETLER GRUBU
+\tOZD ŞİRKETLER GRUBU
 \tÜYE GİRİŞ/KAYIT İŞLEMLERİ
 1.KAYIT
 2.GİRİŞ
@@ -40,7 +40,7 @@ while True:
             if sonuc:
                 print("Sisteme giriş başarıyla gerçekleşti .İyi günler dileriz .")
                 time.sleep(1)
-                webbrowser.open_new_tab("https://www.ozdemirgrubu.com/")
+                webbrowser.open_new_tab("https://www.ozdemirgrubu.com/") #soyismim olduğu için aldım , yoksa bir alakam yok .
                 break
             else:
                 print("Sisteme giriş başarısız.Lütfen tekrar deneyin veya kayıt olun.")
